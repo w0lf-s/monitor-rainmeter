@@ -146,8 +146,6 @@ Format=%A
 Measure=Plugin
 Plugin=Plugins\WebParser.dll
 UpdateRate=2400
-Url=http://xml.weather.com/weather/local/#WeatherCode#?cc=*&unit=#Unit#&dayf=3
-RegExp="(?siU)<tmp>(.*)</tmp>.*<t>(.*)</t>.*<icon>(.*)</icon>.*<dayf>.*<hi>(.*)</hi>.*<low>(.*)</low>.*<part p="n">.*<t>(.*)</t>.*<day d="1".*<hi>(.*)</hi>.*<low>(.*)</low>.*<t>(.*)</t>.*<day d="2" t="(.*)".*<hi>(.*)</hi>.*<low>(.*)</low>.*<t>(.*)</t>"
 
 [MeasureTemperature]
 Measure=Plugin
